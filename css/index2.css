@@ -115,12 +115,30 @@ h2, h3{
 	.row2{
 		border: 1px solid #CCCCCC;
 	}
+	html{
+		height: 100%;
+	}
+	body{
+		position: relative;
+		min-height: 100%;
+	}
+	#container{
+		padding-bottom: 100px;
+	}
 	.footer2{
+		margin-top: -100px;
+		padding: 0 20px;
+		box-sizing: border-box;
 		background-color: #CCCCCC;
 		border: 1px solid #666666;
-		padding: 20px;
-		box-sizing: border-box;
 		display: flex;
 		justify-content: space-between;
+		height: 50px;
+		width: 100%;
+		line-height: 50px;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		margin-bottom: 0;
 	}
 }
